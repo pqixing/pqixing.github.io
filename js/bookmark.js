@@ -1,5 +1,5 @@
  function closeBookMark(b){
-               var c=b.parentNode.nextElementSibling
+               var c=b.nextElementSibling
 				console.log("Close"+c.tagName)
 				if(c.style.display=="none"){
 				c.style.display="block"
